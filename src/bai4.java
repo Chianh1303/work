@@ -6,23 +6,23 @@ public class bai4 {
         int n = sc.nextInt();
         System.out.println("Nhập số:");
         switch(n/10) {
-            case 1: System.out.println("Ten"); break;
+            case 1: System.out.print("Ten"); break;
             case 2:
-                System.out.println("Twenty"); break;
+                System.out.print("Twenty"+" "); break;
             case 3:
-                System.out.println("thirty"); break;
+                System.out.print("thirty"+" "); break;
             case 4:
-                System.out.println("forty"); break;
+                System.out.print("forty"+" "); break;
             case 5:
-                System.out.println("fifty"); break;
+                System.out.print("fifty"+" "); break;
             case 6:
-                System.out.println("sixty"); break;
+                System.out.print("sixty"+" "+" "); break;
             case 7:
-                System.out.println("seventy"); break;
+                System.out.print("seventy"+" "); break;
             case 8:
-                System.out.println("eighty"); break;
+                System.out.print("eighty"+" "); break;
             case 9:
-                System.out.println("ninety"); break;
+                System.out.print("ninety"+" "); break;
         }
         switch (n%10)
         {
